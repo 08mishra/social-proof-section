@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c702e6dbef.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: url(./images/bg-pattern-bottom-desktop.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px;
+            background-color: hsl(333, 80%, 81%);
+        }
+        
+        .container {
+            padding: 2em;
+        }
+        
+        #container2 {
+            margin-top: 70px;
+            color: hsl(300, 43%, 22%);
+        }
+        
+        #container2 p {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 5px;
+            font-size: bold;
+        }
+        
+        #heading {
+            width: 300px;
+            text-align: left;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            color: hsl(300, 43%, 22%);
+            font-weight: 800;
+        }
+        
+        #para {
+            width: 388px;
+            height: 100px;
+            text-align: left;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            position: relative;
+            color: magenta hsl(300, 24%, 96%);
+        }
+        
+        #div1 {
+            width: 365px;
+            height: 42px;
+            background-color: hsl(333, 80%, 94%);
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        
+        #div2 {
+            width: 365px;
+            height: 42px;
+            background-color: hsl(333, 80%, 94%);
+            border-radius: 6px;
+            margin-bottom: 20px;
+            position: relative;
+            margin-left: 35px;
+        }
+        
+        #div3 {
+            width: 365px;
+            height: 42px;
+            background-color: hsl(333, 80%, 94%);
+            border-radius: 6px;
+            margin-bottom: 20px;
+            position: relative;
+            margin-left: 70px;
+        }
+        
+        .fas {
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 5px;
+            margin-top: 5px;
+            color: rgb(210, 224, 11);
+        }
+        
+        h4 {
+            float: right;
+        }
+        
+        @media (max-widht:650px) {
+            #heading {
+                text-align: center;
+            }
+            #para {
+                text-align: center;
+            }
+            #div1 {
+                width: 245px;
+            }
+            #div2 {
+                width: 245px;
+                margin-left: 0px;
+            }
+            #div3 {
+                width: 245px;
+                margin-left: 0px;
+            }
+        }
+        
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="container" class="row">
+            <div id="container1" class="col-sm-12 col-lg-6">
+                <div id="heading">
+                    <h1>10,000+ of our users love our products.</h1>
+
+                </div>
+
+                <div id="para">
+                    <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+                </div>
+            </div>
+
+
+
+
+            <div id="container2" class="col-sm-12 col-lg-6">
+                <div id="div1">
+                    <div class="row">
+                        <div class="col-6">
+
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="col-6">
+                            <p>Rated 5 Stars in Reviews</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="div2">
+                    <div class="row">
+                        <div class="col-6">
+
+                            <i class="fas fa-star">
+                          </i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="col-6">
+                            <p>Rated 5 Stars in Reviews</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="div3">
+                    <div class="row">
+                        <div class="col-6">
+
+                            <i class="fas fa-star">
+                        </i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="col-6">
+                            <p>Rated 5 Stars in Reviews</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 
+    <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+</body>
+
+</html>
+
+
+
+<!-- 
+
+    
+    Colton Smith 
+    Verified Buyer
+    "We needed the same printed design as the one we had ordered a week prior.
+    Not only did they find the original order, but we also received it in time.
+    Excellent!"
+    
+    Irene Roberts 
+    Verified Buyer
+    "Customer service is always excellent and very quick turn around. Completely
+    delighted with the simplicity of the purchase and the speed of delivery."
+    
+    Anne Wallace 
+    Verified Buyer
+    "Put an order with this company and can only praise them for the very high
+    standard. Will definitely use them again and recommend them to everyone!" -->
